@@ -64,6 +64,7 @@ create table notice_comment(
 );
 
 --select * from (select rownum rnum, num, title, writer, writeday, readcnt from(select * from board3 order by repRoot desc, repStep asc)) where rnum>=? and rnum<=?
+--select * from (select rownum rnum, num, title, writer, writeday, readcnt from(select * from board3 order by repRoot desc, repStep asc)) where rnum>=? and rnum<=?
 
 
 
